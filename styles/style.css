@@ -151,6 +151,12 @@ nav li:hover {
     color: #727272;
 }
 
+
+.fency-button {
+    text-align: center;
+    margin-top: -150px;
+} 
+
 .button-2 {
     color: white;
     font-size: 20px;
@@ -159,7 +165,12 @@ nav li:hover {
     padding: 15px 35px;
     border: 1px solid #FF900E;
     border-radius: 5px;
-    margin-left: 800px;
+}
+
+.button-2:hover {
+    color: #ff900e;
+    background-color: #FFF4E7;
+    border: 1px solid #FF900E;
 }
 
 
@@ -271,6 +282,102 @@ nav li:hover {
     text-align: center;
     padding-bottom: 20px;
 
+}
+
+
+/* Media Queries */
+
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+    
+    .header {
+        padding: 0;
+    }
+    nav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid grey;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .banner {
+        padding: 20px;
+    }
+    
+    .banner-title {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .banner-image {
+        width: 100%;
+        height: 400px;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .features-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 0;
+    }
+    
+    .second-features {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 20px;
+    }
+
+    .second-features-image img{
+        width: 100%;
+        padding-top: 50px;
+    
+    }
+
+    .fency-button {
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 0;
+    } 
+    
+    .second-features-title {
+        border-left: 4px solid #FF900E;
+    }
+
+    .facts {
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    .facts-box {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .sponsors {
+        align-items: center;
+        padding: 0 20px;
+    }
+    .image-sponsor {
+        width: 80px;
+        filter: grayscale(100%);
+    }
+    .footer {
+        background-color: #FFF4E7;
+        align-content: start;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+    }
 }
 
 
