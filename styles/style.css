@@ -303,6 +303,10 @@ nav li:hover {
         display: flex;
         justify-content: space-around;
     }
+    nav li {
+        font-size: 16px;
+        margin-right: 10px;
+    }
     .banner {
         padding: 20px;
     }
