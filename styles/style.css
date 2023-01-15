@@ -23,6 +23,10 @@ body {
     background-color: #FFF4E7;
     border: 1px solid #FF900E;
 }
+hr {
+    color: #f5f5f5;
+    padding-top: 30px;
+}
 
 
 /* navbar styles */
@@ -177,6 +181,12 @@ nav li:hover {
     border: 1px solid #FF900E;
     border-radius: 5px;
     padding: 15px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.facts-content:hover {
+    transform: scale(0.8);
 }
 
 .facts-number {
@@ -221,6 +231,47 @@ nav li:hover {
     padding-right: 100px;
 }
 
+/* footer and extra section */
+.footer {
+    background-color: #FFF4E7;
+    align-content: start;
+    padding: 80px 300px 0 300px;
+    margin-top: 50px;
+    gap: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.footer-content-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-content ul {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-content li {
+    list-style: none;
+    margin-left: -40px;
+    padding-bottom: 10px;
+}
+
+/* copyright section */
+.copyright {
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
 
 
 
